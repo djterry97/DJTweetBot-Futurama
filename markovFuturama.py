@@ -1,10 +1,10 @@
 import os, tweepy, markovify, sys
     
 # Keys and Tokens to access @DJTwitterbot
-consumer_key = 's9TGxOnUOxDag7P0T93MSxKkv'
-consumer_secret = 'U2PwUyOd7qYOnDSbD8evy8Ebff1dlpjK0onYzpxKpEob3BoOng'
-access_token = '1059596360171876352-TUe8IJFXpGCTxVQczXZgg4LqroTDpn'
-access_secret = 'hMti3N1ZlVxQAlqw6dFucipANxJcl0bfCZvdO0StxuET2'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
